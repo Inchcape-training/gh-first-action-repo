@@ -4,7 +4,7 @@ on: workflow_dispatch # Manual trigger
 
 jobs: 
 
-  01-first-job: # Name of job, not a reserved word
+  first-job: # Name of job, not a reserved word
     runs-on: ubuntu-latest
     steps:
       - name: 01 Print greeting
