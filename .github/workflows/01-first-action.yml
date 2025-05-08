@@ -10,4 +10,6 @@ jobs:
       - name: 01 Print greeting
         run: echo "Hello Creepy World!!!"
       - name: 02 Print goodbye
-        run: echo "That's all Folks!!"
+        run: | # use "|" to run multi-line shell commands
+          echo "That's all Folks!!"
+          echo "You'll miss me"
